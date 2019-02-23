@@ -356,25 +356,6 @@ This happens mostly by network communication failure or if a gearman service fai
 
 ### Configuration
 
-#### Logger
-`Winston` library is used for logging. See the [project page](https://github.com/flatiron/winston) for details.
-
-The `GearmaNode` library registers following loggers:
-
-* Client
-* Worker
-* JobServer
-* Job
-* LBStrategy
-* protocol
-
-You can configure the logger in this way:
-
-```javascript
-gearmanode.Client.logger.transports.console.level = 'info';
-````
-
-
 ## Class diagram
 
 [![](https://raw.github.com/veny/GearmaNode/master/ooad/Classes.png)](https://raw.github.com/veny/GearmaNode/master/ooad/Classes.png)
