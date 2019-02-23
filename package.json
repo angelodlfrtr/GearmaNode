@@ -20,7 +20,7 @@
     "doc": "jsdoc lib/gearmanode.js lib/gearmanode/*.js"
   },
   "dependencies": {
-    "winston": ">=0.7.1"
+    "winston": "0.7.1"
   },
   "devDependencies": {
     "mocha": ">=1.10.0",
